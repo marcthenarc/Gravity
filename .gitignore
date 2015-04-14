@@ -1,32 +1,43 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Unreal extra files and directories
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+*.suo
+*.sdf
+*.sln
 
-# Precompiled Headers
-*.gch
-*.pch
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Folder config file
+Desktop.ini
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# Debug files
-*.dSYM/
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
